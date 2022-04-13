@@ -3,8 +3,16 @@
 }
 
 .beautiful_home {
+    position: relative;
     height: 900px;
     background: linear-gradient(174.48deg, rgba(2, 26, 56, 0.98) -12.41%, rgba(204, 51, 217, 0.98) 88.56%);
+}
+
+.beautiful_home .line {
+    position: absolute;
+    width: 100%;
+    height: 172px;
+    bottom: 0;
 }
 
 /*HEADER START*/
@@ -41,7 +49,7 @@ header {
 }
 
 .home_img_wrapper {
-    margin: 60px 0 0 -115px;
+    overflow: hidden;
 }
 
 .home_img_wrapper img {
@@ -49,6 +57,7 @@ header {
     height: 30rem;
     border-radius: 50%;
     border: 15px solid white;
+    margin: 60px 0 0 -115px;
 }
 
 .make_home_beautiful_content {
@@ -75,7 +84,7 @@ header {
 }
 
 .flat_img_wrapper {
-    margin-right: -180px;
+    overflow: hidden;
 }
 
 .flat_img_wrapper img {
@@ -83,4 +92,177 @@ header {
     height: 37rem;
     border-radius: 50%;
     border: 15px solid white;
+    margin-right: -180px;
+}
+
+.welcome_to_pr {
+    display: flex;
+    margin: 60px 165px 0 65px;
+}
+
+.paints_wrapper {
+    margin-right: 100px;
+}
+
+.welcome_to_pr .content {
+    vertical-align: center;
+}
+
+.welcome_to_pr .title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 65px;
+    background: linear-gradient(164.84deg, #021A38 0.18%, #CC33D9 61.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 22px 0 28px 0;
+}
+
+.welcome_to_pr .text {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #333333;
+    margin-bottom: 27px;
+}
+
+.welcome_to_pr .button {
+    background: linear-gradient(180.69deg, #021A38 -30.61%, #CC33D9 132.4%);
+    border-radius: 100px;
+    border: none;
+    padding: 17px 40px;
+
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cards_container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1200px;
+    background: url("../img/InteriorBackground.png") no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #888888;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-top: 104px;
+    box-shadow: 0 50px 100px rgba(0, 0, 0, 0.1);
+}
+
+.disabled {
+    z-index: 0;
+    padding: 27px 46px;
+    transition: 0.2s;
+}
+
+.disabled p {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #888888;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.disabled img {
+    width: 18rem;
+    height: 11rem;
+    margin-bottom: 20px;
+}
+
+.disabled button {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #888888;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 22px;
+}
+
+.active {
+    z-index: 2;
+    align-items: center;
+    padding: 23px 50px;
+    transition: 0.2s;
+}
+
+.active p {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.active img {
+    width: 24rem;
+    height: 23rem;
+    border-radius: 17px;
+    margin-bottom: 16px;
+}
+
+.active button {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding: 12px 40px;
+    background: linear-gradient(178.18deg, #021A38 -13.56%, #CC33D9 118.02%);
+    border-radius: 100px;
+    border: none;
+}
+
+#exterior {
+    margin-right: -47px;
+}
+
+#your_perfect_color {
+    margin-left: -47px;
+}
+
+#your_perfect_color button {
+    margin-left: -14px;
 }

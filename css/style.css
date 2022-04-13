@@ -266,3 +266,66 @@ header {
 #your_perfect_color button {
     margin-left: -14px;
 }
+
+.gallery {
+    position: relative;
+}
+
+.gallery_title_wrapper {
+    position: absolute;
+    right: 50%;
+    top: -50px;
+}
+
+.gallery_title {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    background: linear-gradient(167.52deg, #F16D92 24.56%, #281AC8 91.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 92px;
+}
+
+.first_column {
+    padding-left: 46%;
+}
+
+.photos_img {
+    margin-bottom: 10px;
+}
+
+.photos_text {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 39px;
+
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 5px;
+}
+
+.office {
+    margin-bottom: 103px;
+}
+
+.living_room {
+    margin-top: 195px;
+    margin-bottom: 160px;
+}
+
+.bath {
+    margin-bottom: 104px;
+}
